@@ -1,4 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
-	<ConfigVersions/>
+	<ConfigVersions>
+		<Metadata name="DataProcessor.ОперацииЗакрытияМесяца" id="e081baf0-9dca-4d84-95dd-150332ffa304" configVersion="482c108814cf18b87e653cfe4e97e17d6afc0036"/>
+		<Metadata name="DataProcessor.ОперацииЗакрытияМесяца.ManagerModule" id="e081baf0-9dca-4d84-95dd-150332ffa304.2" configVersion="293be097a94f8c4c44245899c5373e2a4de5ea69"/>
+	</ConfigVersions>
 </ConfigDumpInfo>
