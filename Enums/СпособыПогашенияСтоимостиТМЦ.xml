@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="40231fc4-4619-440a-a58b-deb4f2cd537d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыПогашенияСтоимостиТМЦ" category="Ref">
+				<xr:TypeId>86e53ad6-7e56-4db4-bcc5-f17b880e06d4</xr:TypeId>
+				<xr:ValueId>9ba5031a-044b-4948-879b-a8960b67628f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыПогашенияСтоимостиТМЦ" category="Manager">
+				<xr:TypeId>8f786e06-f003-4876-beeb-e49066342bd5</xr:TypeId>
+				<xr:ValueId>9f22e718-6028-48a6-9198-72ea0e902254</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыПогашенияСтоимостиТМЦ" category="List">
+				<xr:TypeId>f8d04cf5-fcb5-49ab-8e51-4dabcaaf30a2</xr:TypeId>
+				<xr:ValueId>06cc853d-dd0c-4cd6-aa75-f4eaa4651019</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыПогашенияСтоимостиТМЦ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

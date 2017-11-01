@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="187dcf18-f750-4ae8-8cba-05ab782e5e49">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДеятельностиДляНалоговогоУчетаЗатрат" category="Ref">
+				<xr:TypeId>e1cd3f34-6800-4aee-ac23-2a5b69775e5e</xr:TypeId>
+				<xr:ValueId>988c02ce-41eb-4f76-b1af-e6ba2035366e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДеятельностиДляНалоговогоУчетаЗатрат" category="Manager">
+				<xr:TypeId>d34a0e10-c8b2-4210-85c3-8108eeeb2f51</xr:TypeId>
+				<xr:ValueId>76d03a27-437b-46c9-abf0-ef3f0c35a234</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДеятельностиДляНалоговогоУчетаЗатрат" category="List">
+				<xr:TypeId>96fefd00-e8da-4806-bf4a-cf438bca03db</xr:TypeId>
+				<xr:ValueId>47794617-8b66-4ab5-a30f-f38ea5ec5622</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыДеятельностиДляНалоговогоУчетаЗатрат</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="60ff79d5-64c3-4c7f-8fe6-a47003b6080f">
+				<Properties>
+					<Name>РаспределяемыеЗатраты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0b0907d4-68d9-4470-abb9-f56d0c8cc678">
+				<Properties>
+					<Name>ОсобыйПорядокНалогообложения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ad424300-c43f-4ea1-9ead-cbaa3fc8ff2f">
+				<Properties>
+					<Name>ОсновнаяСистемаНалогообложения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

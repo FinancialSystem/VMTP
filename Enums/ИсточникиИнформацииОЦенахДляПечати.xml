@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="3789215f-f029-4ab4-840d-6c0a472ef8c9">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ИсточникиИнформацииОЦенахДляПечати" category="Ref">
+				<xr:TypeId>3d1a7cb4-fac8-4aa6-a99b-03ddd963c7f6</xr:TypeId>
+				<xr:ValueId>48c88e46-aa5f-45b6-bae5-fc0518d754e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ИсточникиИнформацииОЦенахДляПечати" category="Manager">
+				<xr:TypeId>01e875d8-f9cc-457c-a2f8-455490868320</xr:TypeId>
+				<xr:ValueId>53f3eddc-7e53-4c2a-b640-d133ca3e46dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ИсточникиИнформацииОЦенахДляПечати" category="List">
+				<xr:TypeId>49e307d7-3006-426c-bb02-b05285182477</xr:TypeId>
+				<xr:ValueId>2c67b586-e7ec-4019-838f-11410d7441d3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИсточникиИнформацииОЦенахДляПечати</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="b27241cd-42eb-4c95-8851-1aafcea40fc5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.АмортизационныеГруппы" category="Ref">
+				<xr:TypeId>803e3f19-f208-41d1-8c22-c8a0bbd3dfda</xr:TypeId>
+				<xr:ValueId>8d2d6bd5-645b-4d1f-a47a-36d0b619de96</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.АмортизационныеГруппы" category="Manager">
+				<xr:TypeId>69cbf025-9495-492c-b735-b18f57e893d7</xr:TypeId>
+				<xr:ValueId>cd29181a-d88a-4a9e-8c75-d9d60d1b959a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.АмортизационныеГруппы" category="List">
+				<xr:TypeId>ef449398-d18a-449b-9b25-1f26ea630328</xr:TypeId>
+				<xr:ValueId>db64dc55-2735-42af-957a-44d48baa1937</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АмортизационныеГруппы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="eb7ee8ff-ce78-4e50-9182-10d2f0d539a4">
+				<Properties>
+					<Name>ПерваяГруппа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1fa37973-e097-4ddc-89b2-de8d67270325">
+				<Properties>
+					<Name>ВтораяГруппа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e3340d98-0b32-47cf-8ca7-4ff255b78706">
+				<Properties>
+					<Name>ТретьяГруппа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d9b5cb1c-2386-4f7f-ae83-50e068b4377c">
+				<Properties>
+					<Name>ЧетвертаяГруппа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="38fcb180-8d78-4a2c-9301-56c1e9c04ba1">
+				<Properties>
+					<Name>ПятаяГруппа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e1ea5032-76bb-43d7-932d-6ef32e2e6ea6">
+				<Properties>
+					<Name>ШестаяГруппа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d1d8e0a7-d68d-4e77-a843-aca255968ca5">
+				<Properties>
+					<Name>СедьмаяГруппа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2c9a6035-f72d-4293-84f3-d9c9eb6f4cd0">
+				<Properties>
+					<Name>ВосьмаяГруппа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1399fd9a-3bf6-4406-bf7e-6c814abf7c05">
+				<Properties>
+					<Name>ДевятаяГруппа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1ed9889b-80d4-42f2-b54e-43f0212cc73f">
+				<Properties>
+					<Name>ДесятаяГруппа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0c2846f7-6447-4799-bfe0-4e9e8dd1e910">
+				<Properties>
+					<Name>ОтдельнаяГруппа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

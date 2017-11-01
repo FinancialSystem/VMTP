@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="ad4dc9fa-62fd-4d57-b11d-0f817a1cdc80">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.НалоговаяБазаПоНалогуНаИмущество" category="Ref">
+				<xr:TypeId>84c3d782-5b66-42e0-adfe-4435c8fcda34</xr:TypeId>
+				<xr:ValueId>352591dd-8358-4886-825a-db628bcb7a9e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.НалоговаяБазаПоНалогуНаИмущество" category="Manager">
+				<xr:TypeId>79678e5e-44b5-44f0-8c14-bae3a3b7e202</xr:TypeId>
+				<xr:ValueId>675954a6-cbae-44a8-80a3-3fffe1dad9f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.НалоговаяБазаПоНалогуНаИмущество" category="List">
+				<xr:TypeId>0be55168-89cd-4ab5-aa84-64894465e71d</xr:TypeId>
+				<xr:ValueId>5005d0ec-7ecb-463a-848a-ba0822a349e0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НалоговаяБазаПоНалогуНаИмущество</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="d187a0c3-5bcc-448c-9880-9a3130b8580f">
+				<Properties>
+					<Name>КадастроваяСтоимость</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bd35ab82-1703-4ab3-b389-a3d08c1c513c">
+				<Properties>
+					<Name>СреднегодоваяСтоимость</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

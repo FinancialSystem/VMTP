@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="64cbace9-4159-4210-abe9-59b88add501a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыРасчетовСПартнерами" category="Ref">
+				<xr:TypeId>204f713f-d6fd-4e76-9b07-8858a015ebc3</xr:TypeId>
+				<xr:ValueId>f5aed0f3-fdee-4c8a-a938-8001ed450fec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыРасчетовСПартнерами" category="Manager">
+				<xr:TypeId>736df1c3-bd7d-4f47-96a7-9ac78a78d2b6</xr:TypeId>
+				<xr:ValueId>d14902b8-9fb9-4297-a180-9a5b21cbee38</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыРасчетовСПартнерами" category="List">
+				<xr:TypeId>b73b770c-b40e-4811-a667-11c82426550d</xr:TypeId>
+				<xr:ValueId>e1257227-457c-446a-b8c7-74dc139a946f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыРасчетовСПартнерами</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="d48f393d-f6ef-4d59-b135-7373a5db918e">
+				<Properties>
+					<Name>РасчетыСПоставщиком</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1c406dba-c688-4b60-8b6d-9cc9859e147d">
+				<Properties>
+					<Name>РасчетыСКлиентом</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

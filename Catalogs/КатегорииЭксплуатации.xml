@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="d3a35f41-7279-4d87-b473-764444b5993e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КатегорииЭксплуатации" category="Object">
+				<xr:TypeId>c83833af-a048-4a61-907a-479aa807ac51</xr:TypeId>
+				<xr:ValueId>7ad711a5-93ae-4b6e-bb81-2d5ad8b7abab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КатегорииЭксплуатации" category="Ref">
+				<xr:TypeId>c5de2ec2-a4ee-4eb9-891f-ae66e49dfbc6</xr:TypeId>
+				<xr:ValueId>33ed849e-243c-455e-91b4-3725bfcce2bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КатегорииЭксплуатации" category="Selection">
+				<xr:TypeId>1f755e7d-3543-4d13-822d-2d90bc32fb5c</xr:TypeId>
+				<xr:ValueId>935a0344-cc70-4ae9-acca-0832b14fba09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КатегорииЭксплуатации" category="List">
+				<xr:TypeId>c15cd01b-0d4b-4f02-8e56-7943694bb34e</xr:TypeId>
+				<xr:ValueId>3053f0f0-0df4-4408-9047-1e1f667fa2be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КатегорииЭксплуатации" category="Manager">
+				<xr:TypeId>7997c562-1bbf-4db1-8982-ba1cd7034b72</xr:TypeId>
+				<xr:ValueId>a37f2528-9f43-4d32-b21c-5aa7be6dc32a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КатегорииЭксплуатации</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

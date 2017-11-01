@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="80e623cc-0ea0-4521-9d4e-e0a7e4d90534">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыФинансовогоУчетаДоходовРасходов" category="Object">
+				<xr:TypeId>d64056e7-9795-4c75-b04c-66b1a41e175b</xr:TypeId>
+				<xr:ValueId>c429d5c7-9d93-4985-870a-57a5e717e8cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыФинансовогоУчетаДоходовРасходов" category="Ref">
+				<xr:TypeId>a5a1dba0-e96d-4967-99aa-51d54cfc4cf0</xr:TypeId>
+				<xr:ValueId>1c9b68d6-383e-4b9f-a98a-4a2d8f0b30f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыФинансовогоУчетаДоходовРасходов" category="Selection">
+				<xr:TypeId>f82b5b6e-7c67-4bef-b606-ba6f39d0b10d</xr:TypeId>
+				<xr:ValueId>1ea339d2-7539-499f-9719-4f0763bbc914</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыФинансовогоУчетаДоходовРасходов" category="List">
+				<xr:TypeId>af809d17-c788-4b60-9d9b-674af6f7eba9</xr:TypeId>
+				<xr:ValueId>60cf7318-3e2b-4492-a479-a4da31a40f24</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыФинансовогоУчетаДоходовРасходов" category="Manager">
+				<xr:TypeId>e66157e0-9054-4378-a1ba-ff4e193f7ead</xr:TypeId>
+				<xr:ValueId>88bf8a3a-23dd-4ede-806b-b328596f61fe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГруппыФинансовогоУчетаДоходовРасходов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

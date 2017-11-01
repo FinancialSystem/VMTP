@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="9b172db4-d9f4-475d-9a95-508e58626018">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПартииТМЦВЭксплуатации" category="Object">
+				<xr:TypeId>160d5a0a-33ce-43e8-b283-9c8b2a68d911</xr:TypeId>
+				<xr:ValueId>aad9c904-ca5c-4cf9-9680-261948d6a5fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПартииТМЦВЭксплуатации" category="Ref">
+				<xr:TypeId>266e2574-d259-4e05-a473-9015876930a2</xr:TypeId>
+				<xr:ValueId>2c0c7444-5b83-498b-99b4-dee49e7588c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПартииТМЦВЭксплуатации" category="Selection">
+				<xr:TypeId>ec5911d5-3e77-4630-a5aa-d94775756a96</xr:TypeId>
+				<xr:ValueId>7d342154-e22a-4d0d-97df-53f071f9f324</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПартииТМЦВЭксплуатации" category="List">
+				<xr:TypeId>6311aaf6-99ea-4c84-94fc-acdab7caffa1</xr:TypeId>
+				<xr:ValueId>a5e1d6c5-8ed1-4b18-99a4-831a85d075f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПартииТМЦВЭксплуатации" category="Manager">
+				<xr:TypeId>aa51dca1-9453-4952-8b2b-17f28b945aea</xr:TypeId>
+				<xr:ValueId>03225eef-c0ea-4a34-a146-f33dbd4de72c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПартииТМЦВЭксплуатации</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>150</DescriptionLength>
+			<DefaultChoiceForm/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1a2b80b8-9d63-459b-8ea7-f9f78f4afa44">
+				<Properties>
+					<Name>СтатьяРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ec67d767-a7b5-4053-973e-8ea4a9d90a18">
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c8679d86-cbfc-4b0e-8c73-5feda12cb09b">
+				<Properties>
+					<Name>АналитикаРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4b5844a1-be00-43bb-b1a4-87078061ab70">
+				<Properties>
+					<Name>СрокЭксплуатации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="db6f8a6d-7739-4e69-b5e8-f0f0ec27cb1d">
+				<Properties>
+					<Name>ДатаЗавершенияЭксплуатации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="44b47787-508c-4804-91ae-eaff45fee0c2">
+				<Properties>
+					<Name>Документ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7ca9ca4c-2f06-4e17-8a90-ef267882137d">
+				<Properties>
+					<Name>НаправлениеДеятельности</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.НаправленияДеятельности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c7697ab1-8528-4eed-917d-3a4b2e039624">
+				<Properties>
+					<Name>Дата</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="02a91534-ec1c-4fef-ac7f-2382eff516f1">
+				<Properties>
+					<Name>КатегорияЭксплуатации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КатегорииЭксплуатации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="eb27674b-2811-4be8-b776-b901426ccfac">
+				<Properties>
+					<Name>ЕдиницаИзмеренияНаработки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0b30e0bc-f9e8-43fc-8673-5f002dc649f4">
+				<Properties>
+					<Name>СпособПогашенияСтоимостиНУ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыПогашенияСтоимостиТМЦ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0770c132-ffba-40ca-b358-96de3031d1a3">
+				<Properties>
+					<Name>СпособПогашенияСтоимостиБУ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыПогашенияСтоимостиТМЦ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="93e1ee51-3e57-472a-8ef4-0b0fce9f3ea8">
+				<Properties>
+					<Name>ИнвентарныйНомер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>11</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="44b2dad4-dd0f-4ac5-a6ab-555cd2ba10b3">
+				<Properties>
+					<Name>ИнвентарныйУчет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="80f8ec9e-1ded-4377-8646-162e8e5cd2e1">
+				<Properties>
+					<Name>ОбъемНаработки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаПодбора</Form>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

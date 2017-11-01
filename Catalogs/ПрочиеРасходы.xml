@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="50662d00-93a0-4ac3-833a-d9731e8648ff">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПрочиеРасходы" category="Object">
+				<xr:TypeId>ac9d4155-328e-4d3a-bebe-ac05ebb24029</xr:TypeId>
+				<xr:ValueId>d4cccc7b-445b-467f-9ead-695e8a26f6a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПрочиеРасходы" category="Ref">
+				<xr:TypeId>7e1cbc79-950d-4be6-ae91-6352aa48ea57</xr:TypeId>
+				<xr:ValueId>655c3ba9-d52c-41c1-957d-f4bfdb79f053</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПрочиеРасходы" category="Selection">
+				<xr:TypeId>39fa7122-b4bd-4fab-9148-b735fc5e01de</xr:TypeId>
+				<xr:ValueId>a64818ed-18ad-4d43-8d44-9def8adb55e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПрочиеРасходы" category="List">
+				<xr:TypeId>0a39fe71-67ff-499c-84a3-be335ea4d36d</xr:TypeId>
+				<xr:ValueId>a08039a0-3a64-4f99-9996-32d6e054a22e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПрочиеРасходы" category="Manager">
+				<xr:TypeId>94fce5e1-745d-433d-80b1-fb58a4c2afca</xr:TypeId>
+				<xr:ValueId>fddcc95c-3ad7-4871-988e-aeb26b54a5c6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПрочиеРасходы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

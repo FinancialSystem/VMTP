@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="e2438b44-00fb-4cd3-9fec-a4bbd5639d4d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПоказателиНаработки" category="Object">
+				<xr:TypeId>684691c4-3ea0-4778-8455-9c7376798bdb</xr:TypeId>
+				<xr:ValueId>d489eca0-b8cf-47d1-8b88-3f9808f8c42e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПоказателиНаработки" category="Ref">
+				<xr:TypeId>0c84b9a8-42b2-4031-9e9b-64e46f54167f</xr:TypeId>
+				<xr:ValueId>f4efa8b1-d7d0-445f-9b74-b83c3a0c3d93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПоказателиНаработки" category="Selection">
+				<xr:TypeId>016054c4-b8de-40ef-a500-f9162b2edc14</xr:TypeId>
+				<xr:ValueId>516f4b75-d6a3-43aa-9f0a-476294cf3c88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПоказателиНаработки" category="List">
+				<xr:TypeId>ee4ba2c6-29ac-42ce-8123-bf8ff646d676</xr:TypeId>
+				<xr:ValueId>77177616-d105-4cbe-9fe8-c2400cc4456a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПоказателиНаработки" category="Manager">
+				<xr:TypeId>188287c6-b4c3-48a2-8b67-fe7c16966257</xr:TypeId>
+				<xr:ValueId>670cec30-2e63-4c3f-a61c-86e3d711a20d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПоказателиНаработки</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8e899f2c-19a4-404d-a9a5-01f73c8d64bd">
+				<Properties>
+					<Name>ЕдиницаИзмерения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

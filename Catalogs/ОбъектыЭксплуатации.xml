@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="8f761a9f-1d28-4282-a05e-0026792317af">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОбъектыЭксплуатации" category="Object">
+				<xr:TypeId>81d4e74c-79fc-42d2-91dd-bd3051366b1d</xr:TypeId>
+				<xr:ValueId>59451ba5-7bf0-4912-a436-268619fd39e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОбъектыЭксплуатации" category="Ref">
+				<xr:TypeId>5a6540c1-395a-4a04-b51a-8385c61c0768</xr:TypeId>
+				<xr:ValueId>ce9522fa-573c-4f9f-aca7-58fe4ce47799</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОбъектыЭксплуатации" category="Selection">
+				<xr:TypeId>bd16b4f4-0bba-433b-ad4a-06bb29a57ee1</xr:TypeId>
+				<xr:ValueId>6b77ee14-2096-4bf5-a769-191c187ba32f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОбъектыЭксплуатации" category="List">
+				<xr:TypeId>63260b36-eef5-4800-9071-fb2680e8ac8b</xr:TypeId>
+				<xr:ValueId>7450d4e4-103b-449c-b5f0-21443ac7723a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОбъектыЭксплуатации" category="Manager">
+				<xr:TypeId>3d7ab7b8-d7b6-4bf5-98a4-e9acff77c005</xr:TypeId>
+				<xr:ValueId>814d7807-329a-4439-90df-fa77f5bbdc80</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОбъектыЭксплуатации</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>9</CodeLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c66ce242-90d5-4616-8e43-3d820c1d922c">
+				<Properties>
+					<Name>ИнвентарныйНомер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>9</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаВыбораАмортизационнойГруппы</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

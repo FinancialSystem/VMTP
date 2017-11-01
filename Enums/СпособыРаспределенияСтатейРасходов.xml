@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="67310a3b-3c5d-4215-aa12-a0a37ee9c5b2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыРаспределенияСтатейРасходов" category="Ref">
+				<xr:TypeId>774ed208-d444-4ed6-a297-54d70368eef3</xr:TypeId>
+				<xr:ValueId>c28d6394-78b3-43be-8d77-860548fdb316</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыРаспределенияСтатейРасходов" category="Manager">
+				<xr:TypeId>1e60501f-f62f-413b-8136-da8de10987bd</xr:TypeId>
+				<xr:ValueId>8acf4380-7f44-4ff1-8eaa-05573087d059</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыРаспределенияСтатейРасходов" category="List">
+				<xr:TypeId>d80a7f4e-2395-4067-b6e6-0f8de18cec63</xr:TypeId>
+				<xr:ValueId>ac06c19e-3c20-450c-bc10-cd28f2faaf44</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыРаспределенияСтатейРасходов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="43ab1f3c-5c0f-4c84-b90b-67b33a5c3692">
+				<Properties>
+					<Name>ПоЭтапамПоПравилуПоВсемПодразделениям</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6a1b44ec-15f9-4f8d-a827-b5182d48e67e">
+				<Properties>
+					<Name>ПоПодразделениямИЭтапамПоПравилам</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ce06f4de-72bd-4bbb-8ea0-cfc67fa022a2">
+				<Properties>
+					<Name>ПоПодразделениямВручнуюПоЭтапамПоПравилу</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="52f37749-e58f-49cd-8af1-c7882c4fc7a4">
+				<Properties>
+					<Name>НаДругиеСтатьиРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5c8d41d5-58dc-4261-8b76-4ceb508eea97">
+				<Properties>
+					<Name>ПоЭтапамВручнуюПоВсемПодразделениям</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="01e697f8-f69a-494d-b73c-58ad0dbc606f">
+				<Properties>
+					<Name>ПоЭтапамПоПравилуВДанномПодразделении</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

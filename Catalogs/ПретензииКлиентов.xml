@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="4c0f346d-f575-44f5-a1fb-553e54e4feb0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПретензииКлиентов" category="Object">
+				<xr:TypeId>2b57752b-9de7-4521-98bf-8a65fa9aae16</xr:TypeId>
+				<xr:ValueId>07d492ba-14e5-4144-b7a3-463acb25776e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПретензииКлиентов" category="Ref">
+				<xr:TypeId>1af63f70-7002-4f96-aeb0-38c4886310e7</xr:TypeId>
+				<xr:ValueId>d15df5e5-c0c9-4423-bcf1-22545fad79e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПретензииКлиентов" category="Selection">
+				<xr:TypeId>ea1e3077-84f1-49fd-99a3-205145e12eff</xr:TypeId>
+				<xr:ValueId>c7125125-7ac7-4e10-ab9c-f184685be731</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПретензииКлиентов" category="List">
+				<xr:TypeId>f81aa382-e895-4651-9082-8556fac3e52f</xr:TypeId>
+				<xr:ValueId>27652169-0708-4f7b-9211-acf403200807</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПретензииКлиентов" category="Manager">
+				<xr:TypeId>f118daae-2b29-43c0-8336-01045d147dda</xr:TypeId>
+				<xr:ValueId>77ce1d78-51f4-4de4-9dc2-8786f03ee939</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПретензииКлиентов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

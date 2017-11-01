@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="3ad408eb-2618-4cea-9f2c-669c98332ac5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыУказанияСуммыРБП" category="Ref">
+				<xr:TypeId>0c415131-a47e-4530-816d-a6969674d017</xr:TypeId>
+				<xr:ValueId>f781c88b-9b69-4e7f-9c62-e43b1659e7cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыУказанияСуммыРБП" category="Manager">
+				<xr:TypeId>7b4fe4e1-1b53-49e0-a57a-d38ed4a6b4f0</xr:TypeId>
+				<xr:ValueId>99a0df7c-2ef7-43df-9fa5-25a70d134089</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыУказанияСуммыРБП" category="List">
+				<xr:TypeId>abc60f27-b32c-4477-86b9-9b78df489bbe</xr:TypeId>
+				<xr:ValueId>5e0c536d-5669-45e5-b9b9-c6cf38608842</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыУказанияСуммыРБП</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="4b537492-b1f0-4099-97aa-7831809a4a0a">
+				<Properties>
+					<Name>УказываетсяВручную</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5737b9df-c6c7-45c2-b3d6-533c5e8115b9">
+				<Properties>
+					<Name>ОпределяетсяАвтоматически</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

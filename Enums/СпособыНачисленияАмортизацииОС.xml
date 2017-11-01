@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="8a83a835-b3ab-4f12-a95a-0ad865256b99">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыНачисленияАмортизацииОС" category="Ref">
+				<xr:TypeId>e9304e14-f9a3-4147-9224-ba165e3c20cc</xr:TypeId>
+				<xr:ValueId>2832a42a-2b69-4067-ad0f-155fb9a91db9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыНачисленияАмортизацииОС" category="Manager">
+				<xr:TypeId>28f399be-39a2-4879-b3a6-8329aa85c297</xr:TypeId>
+				<xr:ValueId>e996d91b-bde9-4a69-a503-52c7a4a7ccb2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыНачисленияАмортизацииОС" category="List">
+				<xr:TypeId>0e77ce7b-84a5-4d87-afaa-081a495b936f</xr:TypeId>
+				<xr:ValueId>d9431a54-12cb-482c-8692-f4171ea92bd3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыНачисленияАмортизацииОС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="72c15042-5e59-4095-8649-7c03102a3223">
+				<Properties>
+					<Name>ПоЕНАОФНа1000кмПробега</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="df27c080-e5a3-45e1-8043-9b687a31e0e5">
+				<Properties>
+					<Name>ПропорциональноОбъемуПродукции</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5e8371a4-3244-4be9-be56-6c6d16fea03e">
+				<Properties>
+					<Name>Линейный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="33a0aca9-2bf4-400a-81b2-5849fcb1490e">
+				<Properties>
+					<Name>ПоЕНАОФ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8e8e1323-34e9-44ff-bd5f-ad4b488ffd98">
+				<Properties>
+					<Name>ПоСуммеЧиселЛетИспользования</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2aab9f86-2f73-4084-9b72-5de792ad0c4b">
+				<Properties>
+					<Name>УменьшаемогоОстатка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

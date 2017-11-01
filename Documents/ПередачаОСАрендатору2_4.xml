@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Document uuid="e5d4c6c1-aff8-4084-a01b-8809003fe044">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПередачаОСАрендатору2_4" category="Object">
+				<xr:TypeId>61012e6c-b6c4-41c5-bdf6-27ddd0c3ca3b</xr:TypeId>
+				<xr:ValueId>57c41b63-d6ce-4315-9def-ebaea93e3af6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПередачаОСАрендатору2_4" category="Ref">
+				<xr:TypeId>445be7c1-5ed6-45cd-8aa4-8bae39eeeeaa</xr:TypeId>
+				<xr:ValueId>721abcd0-d9ed-4f76-9fea-d66b05a81ccc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПередачаОСАрендатору2_4" category="Selection">
+				<xr:TypeId>62d2fff2-d226-4678-b7b9-d82d163676db</xr:TypeId>
+				<xr:ValueId>cd88edba-7ce6-4b22-99a1-8edb2a7dd08d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПередачаОСАрендатору2_4" category="List">
+				<xr:TypeId>09bdae37-23f6-4609-a6d7-8562b29c466f</xr:TypeId>
+				<xr:ValueId>6f041a02-db4c-4779-8fc2-7f762b929a40</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПередачаОСАрендатору2_4" category="Manager">
+				<xr:TypeId>32e91df9-9fab-446c-9a3f-dc222871b587</xr:TypeId>
+				<xr:ValueId>a8783ee8-b890-4b19-8d86-f00017cd1bd5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПередачаОСАрендатору2_4</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ed21b0a7-a53a-450d-902e-917c03d82333">
+				<Properties>
+					<Name>МОЛАрендатора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bf3fa5c3-1993-4663-9ebe-815b50622416">
+				<Properties>
+					<Name>ПодразделениеАрендатора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e9a729d3-d68b-4b2b-8fa5-7ff2bf10d131">
+				<Properties>
+					<Name>АналитикаРасходовУУ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="590cc10b-aa65-4bf5-ad65-294b4b16a17f">
+				<Properties>
+					<Name>ГруппаФинансовогоУчета</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГруппыФинансовогоУчетаВнеоборотныхАктивов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="daf9fa67-d226-44e2-82ac-f302d421b43b">
+				<Properties>
+					<Name>РасчетыМеждуОрганизациямиАрендатор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b1cf6cc6-f817-4d59-9187-35b9e33d10e1">
+				<Properties>
+					<Name>СтатьяРасходовУУ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4af35db8-18fb-48dc-a25c-816f607d1637">
+				<Properties>
+					<Name>ПодразделениеПолучатель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="25048e1f-8955-4f49-9479-4b2e9168696c">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1d15fef2-5ef3-4ed0-a4ca-69583f9f7398">
+				<Properties>
+					<Name>СтатьяРасходовБУ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ff64b13a-0c58-4a37-843f-481de2972bb1">
+				<Properties>
+					<Name>АдресМестонахожденияАрендатора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1024</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d117ba0d-563c-444d-91a3-c821e369cfa7">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="802d14fb-5d4b-48eb-b589-4752e1b88756">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1d9c89c2-1de4-4a5c-9097-7c3ed62283ac">
+				<Properties>
+					<Name>АналитикаРасходовБУ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c698324a-8bf2-42bf-9a0e-d3516bf5b997">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2fd7e28e-0e6a-4cdb-a2fd-6067c3b76b11">
+				<Properties>
+					<Name>НачислятьАмортизациюБУ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ed60062e-3041-4982-ad09-bec0543c6102">
+				<Properties>
+					<Name>МОЛ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2aa5d080-1ba0-40b4-87a3-a9a2ca2c7ae1">
+				<Properties>
+					<Name>НачислятьАмортизациюУУ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fd64b8d6-6a99-450f-b79c-60e91175c611">
+				<Properties>
+					<Name>Арендатор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="c494675c-d115-4156-a79e-da1410c3baf0">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПередачаОСАрендатору2_4.ОС" category="TabularSection">
+						<xr:TypeId>b0a8d668-248c-4b01-bbb2-bbae840df3ec</xr:TypeId>
+						<xr:ValueId>58a2d9e4-67b6-4f50-b880-871e98d0a424</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПередачаОСАрендатору2_4.ОС" category="TabularSectionRow">
+						<xr:TypeId>d3e8025c-9cf2-4b51-8f7a-3906509f7c7d</xr:TypeId>
+						<xr:ValueId>679ae94b-91cc-4391-91a6-abb9ca3fce89</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="0ede3fc8-dc12-4204-ba0b-6cd932489f92">
+						<Properties>
+							<Name>ОсновноеСредство</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыЭксплуатации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bd1e134f-ba7b-48b0-b143-a2f7a2d4752d">
+						<Properties>
+							<Name>ЗалоговаяСтоимость</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

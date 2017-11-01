@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="f510c8a7-bd3f-4da5-95e3-52a95fd78817">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокПогашенияСтоимостиОС" category="Ref">
+				<xr:TypeId>d0e782eb-d581-4a46-a8b7-904168c338fa</xr:TypeId>
+				<xr:ValueId>b8178b9f-707d-49ff-939c-00072594de69</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокПогашенияСтоимостиОС" category="Manager">
+				<xr:TypeId>4aa03e64-52ec-4eb9-b5bd-8668dadf7d14</xr:TypeId>
+				<xr:ValueId>44ac0fa7-aca7-4ce9-9cf9-9c7beb2b698b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокПогашенияСтоимостиОС" category="List">
+				<xr:TypeId>8970f3a9-0f0f-4985-9ae3-9daf223da2f8</xr:TypeId>
+				<xr:ValueId>84922154-7749-4f4a-9b29-8bdd267c7135</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПорядокПогашенияСтоимостиОС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="535fee70-891d-46ec-8434-93f2c5c3f639">
+				<Properties>
+					<Name>АмортизацияНачислена</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f32277d0-50c8-4831-8697-b4da0d10415b">
+				<Properties>
+					<Name>СтоимостьНеПогашается</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f3192011-f5a7-4c84-93a9-0b67dad4dbad">
+				<Properties>
+					<Name>НачислениеАмортизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

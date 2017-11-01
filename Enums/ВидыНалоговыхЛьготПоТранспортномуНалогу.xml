@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="889d0e79-5458-485c-befa-581ba860c9c5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыНалоговыхЛьготПоТранспортномуНалогу" category="Ref">
+				<xr:TypeId>f3f9eb7e-e7f3-490a-9c0e-e08124533227</xr:TypeId>
+				<xr:ValueId>8a1df9e0-d9da-4b4b-98d1-0b38e2d832cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыНалоговыхЛьготПоТранспортномуНалогу" category="Manager">
+				<xr:TypeId>3d6c8022-337c-4198-86bd-a2cadd423050</xr:TypeId>
+				<xr:ValueId>a251340f-82c9-4004-bedf-0440b50ef9d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыНалоговыхЛьготПоТранспортномуНалогу" category="List">
+				<xr:TypeId>d77b70cd-97d9-414a-be57-8a132000db48</xr:TypeId>
+				<xr:ValueId>78aef5e4-02fd-4700-9ecd-364ab11cad8c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыНалоговыхЛьготПоТранспортномуНалогу</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="5ef5f22a-63d7-46a0-9dcd-229e1e5191f9">
+				<Properties>
+					<Name>СнижениеНалоговойСтавки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7eb91579-1c9c-4d87-b683-ca67757b1e87">
+				<Properties>
+					<Name>ОсвобождениеОтНалогообложения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4aa8123f-20f4-452f-bd7a-59775449ee51">
+				<Properties>
+					<Name>УменьшениеСуммыНалогаВПроцентах</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0ea26f1b-489a-4e6b-9a21-c6b6addb6d56">
+				<Properties>
+					<Name>НеПрименяется</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="afd385aa-9cdd-4bc8-8802-4bcc2a8735c1">
+				<Properties>
+					<Name>УменьшениеСуммыНалогаНаСумму</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

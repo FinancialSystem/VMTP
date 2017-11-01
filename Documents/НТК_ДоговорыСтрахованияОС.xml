@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Document uuid="60290380-fe31-409d-8f00-343feb32ce92">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НТК_ДоговорыСтрахованияОС" category="Object">
+				<xr:TypeId>147373c7-8e25-498b-a8b1-9da99ca56ab7</xr:TypeId>
+				<xr:ValueId>391e0c31-76a9-4a5e-b377-5a151f631d3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НТК_ДоговорыСтрахованияОС" category="Ref">
+				<xr:TypeId>adf63455-d957-4798-bf23-3db606320682</xr:TypeId>
+				<xr:ValueId>7a08090c-cf2a-4f4b-9892-7358a557d3c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НТК_ДоговорыСтрахованияОС" category="Selection">
+				<xr:TypeId>6bb09365-c7e6-4128-b57c-b6e5717b48a5</xr:TypeId>
+				<xr:ValueId>56fb2b96-47ab-494a-96b1-a055482805cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НТК_ДоговорыСтрахованияОС" category="List">
+				<xr:TypeId>3659a1b8-acb3-4d98-9661-a17040e7eb72</xr:TypeId>
+				<xr:ValueId>0202ee32-79ee-4dad-be85-1c3ac64c7c1c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НТК_ДоговорыСтрахованияОС" category="Manager">
+				<xr:TypeId>5d179f1a-4ecf-4849-b7a3-d92bb7f3f4c6</xr:TypeId>
+				<xr:ValueId>c67db27c-18c6-4661-9e96-6d86c9fbd605</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НТК_ДоговорыСтрахованияОС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="fffb1abf-26dc-4755-8172-b1611aaaa5aa">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПрочиеАктивыПассивы" category="Object">
+				<xr:TypeId>f6b77dea-daba-4e2d-a7d8-d9fa9bac1f11</xr:TypeId>
+				<xr:ValueId>e294aa7d-bdff-4da3-ada7-ad6beec08f5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПрочиеАктивыПассивы" category="Ref">
+				<xr:TypeId>95fa2d81-322d-4772-a564-a885ffa30666</xr:TypeId>
+				<xr:ValueId>e0e9c342-4d6a-43f9-828f-966ac6e2ae79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПрочиеАктивыПассивы" category="Selection">
+				<xr:TypeId>b9c07f4b-6cfc-429d-85c2-5e4d8ff2c923</xr:TypeId>
+				<xr:ValueId>e81dc7d8-2b25-4923-9f7f-d0d247484ff4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПрочиеАктивыПассивы" category="List">
+				<xr:TypeId>c6725b88-d0af-475d-8fca-c0089724cc99</xr:TypeId>
+				<xr:ValueId>ceb6d6cd-3bd7-4e60-ba6c-53923d09bc72</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПрочиеАктивыПассивы" category="Manager">
+				<xr:TypeId>6987682a-189d-415f-b021-40bb182d7b79</xr:TypeId>
+				<xr:ValueId>9d8dd18e-e5dd-43d6-b4b3-696ba421cbaf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПрочиеАктивыПассивы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

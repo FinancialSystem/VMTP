@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="43bc2a6b-4d3e-493d-9c53-8f2b89b86827">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыАвансовогоОтчета" category="Ref">
+				<xr:TypeId>f9a62bed-dc04-4606-9f2c-bbc34bf65be1</xr:TypeId>
+				<xr:ValueId>617cba8f-9321-44bc-9fb7-3ba4ad86839e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыАвансовогоОтчета" category="Manager">
+				<xr:TypeId>2c4367f0-0d49-402b-b7cb-01cc9da8526e</xr:TypeId>
+				<xr:ValueId>d446169b-008b-496d-a72d-05d1c2ca562f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыАвансовогоОтчета" category="List">
+				<xr:TypeId>4850a69d-ee1c-43d2-8ab1-537e0ef94dda</xr:TypeId>
+				<xr:ValueId>15e1b11b-7726-4a4e-98a5-da4f78923a9d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыАвансовогоОтчета</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="60149d26-e285-4ec1-b0d8-d2a68d078eb6">
+				<Properties>
+					<Name>Утвержден</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7102a990-cc02-46c4-a89c-5885540be303">
+				<Properties>
+					<Name>Подготовлен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

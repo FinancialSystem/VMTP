@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="e3c0d810-9682-4a5b-a6f6-5e951aafe5b0">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокВключенияСтоимостиОСВСоставРасходовНУ" category="Ref">
+				<xr:TypeId>61f85929-b26c-494c-a539-94a30c7aa5b8</xr:TypeId>
+				<xr:ValueId>8a6e08ef-d128-4a3f-8c76-767ebfaa5b26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокВключенияСтоимостиОСВСоставРасходовНУ" category="Manager">
+				<xr:TypeId>32c13969-8993-45c7-a4a4-8fbc9764fcc8</xr:TypeId>
+				<xr:ValueId>8f642a53-0b13-44ad-97e4-879e748ae16f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокВключенияСтоимостиОСВСоставРасходовНУ" category="List">
+				<xr:TypeId>a2441133-5061-4152-ae64-f276ae3afa75</xr:TypeId>
+				<xr:ValueId>f39b831c-2177-44e6-b8c1-a5d649dee992</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПорядокВключенияСтоимостиОСВСоставРасходовНУ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="4b1ae51b-a61d-43e5-bb33-c5729f976664">
+				<Properties>
+					<Name>ВключениеВРасходыПриПринятииКУчету</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="948873f7-bc1c-4f42-9782-1e9162f99908">
+				<Properties>
+					<Name>СтоимостьНеВключаетсяВРасходы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d8322224-81db-4d85-ba4d-5bb79f8edb03">
+				<Properties>
+					<Name>НачислениеАмортизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="5c410411-7abf-46e8-827a-6d071b89e904">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокУчетаСтоимостиВнеоборотныхАктивов" category="Ref">
+				<xr:TypeId>d6a2adf7-f4f5-4cf9-b51b-2678f12b3907</xr:TypeId>
+				<xr:ValueId>d762a582-de5e-46ee-bd3c-b5a32fd9db25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокУчетаСтоимостиВнеоборотныхАктивов" category="Manager">
+				<xr:TypeId>19b87477-551a-47e2-908f-8fcb2031ee0a</xr:TypeId>
+				<xr:ValueId>5ca47799-041d-4f88-8708-8cfa6a92b0cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокУчетаСтоимостиВнеоборотныхАктивов" category="List">
+				<xr:TypeId>ee8e7dc8-3266-4e8f-a4f4-29b4a5db7aa8</xr:TypeId>
+				<xr:ValueId>c3a7bc10-869c-4b90-9e7d-771d19fbe456</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПорядокУчетаСтоимостиВнеоборотныхАктивов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="845e4f20-ef2f-4da9-be91-9ae469582309">
+				<Properties>
+					<Name>НеНачислятьАмортизацию</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="514ec05f-fd10-43aa-a66e-9356a428a1c5">
+				<Properties>
+					<Name>НачислятьАмортизацию</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5180f160-629d-44fe-b003-ed8c22ff14b2">
+				<Properties>
+					<Name>АмортизацияНачислена</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

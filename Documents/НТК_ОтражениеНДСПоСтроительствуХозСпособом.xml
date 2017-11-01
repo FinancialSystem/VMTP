@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Document uuid="d110440f-8353-4b1f-ae31-4647913f53f1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НТК_ОтражениеНДСПоСтроительствуХозСпособом" category="Object">
+				<xr:TypeId>dfa64d0c-a349-4647-81ee-9aedabd7ca4b</xr:TypeId>
+				<xr:ValueId>07af07b8-ccc3-4a35-8b05-18384da6b801</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НТК_ОтражениеНДСПоСтроительствуХозСпособом" category="Ref">
+				<xr:TypeId>270a8c74-71c2-4510-b7f7-79c4bc098986</xr:TypeId>
+				<xr:ValueId>2fd76cfb-13af-4fda-b18e-09073ea602d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НТК_ОтражениеНДСПоСтроительствуХозСпособом" category="Selection">
+				<xr:TypeId>d9fdc204-080e-45ff-9c71-8ebc7f62720e</xr:TypeId>
+				<xr:ValueId>9452d224-ae6b-4b3e-8621-dd1864ba85ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НТК_ОтражениеНДСПоСтроительствуХозСпособом" category="List">
+				<xr:TypeId>41678d21-9d92-44df-a5e2-56798ffbae66</xr:TypeId>
+				<xr:ValueId>630c3137-39dd-47cd-a2d4-96430d59bbc2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НТК_ОтражениеНДСПоСтроительствуХозСпособом" category="Manager">
+				<xr:TypeId>22f0d0ac-f778-43b3-a977-79d07273efaf</xr:TypeId>
+				<xr:ValueId>02163874-3f0e-4f20-ba6e-04df68f46c8a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НТК_ОтражениеНДСПоСтроительствуХозСпособом</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

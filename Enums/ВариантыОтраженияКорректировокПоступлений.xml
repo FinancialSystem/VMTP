@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="45de46d7-da9a-40ed-beb4-ef0046b63838">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыОтраженияКорректировокПоступлений" category="Ref">
+				<xr:TypeId>ae7aaf87-3130-4872-85fd-962cfed3cfa9</xr:TypeId>
+				<xr:ValueId>3a72e2ae-d5e3-477e-8d09-55be56eaf990</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыОтраженияКорректировокПоступлений" category="Manager">
+				<xr:TypeId>56de5dc1-e609-4d60-a51f-491d889d65ed</xr:TypeId>
+				<xr:ValueId>f2ffe466-94a0-4451-9d9e-cfc54077fcd8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыОтраженияКорректировокПоступлений" category="List">
+				<xr:TypeId>1d82934e-83d2-4bc7-8478-9bb0f41b5794</xr:TypeId>
+				<xr:ValueId>ea9e526f-6c4d-411b-bde8-5b597c7b2473</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыОтраженияКорректировокПоступлений</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

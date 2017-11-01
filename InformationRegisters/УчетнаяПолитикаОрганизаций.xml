@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<InformationRegister uuid="2b308674-8ba6-4a40-9c38-642f567c246e">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.УчетнаяПолитикаОрганизаций" category="Record">
+				<xr:TypeId>b68c6dc7-4412-4530-9618-63994319fbf4</xr:TypeId>
+				<xr:ValueId>4485cb5f-d0ce-4243-9cc5-f4429bf82cca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.УчетнаяПолитикаОрганизаций" category="Manager">
+				<xr:TypeId>a94973ab-ff66-4e0a-8e57-fc93da99c3b0</xr:TypeId>
+				<xr:ValueId>c55f3990-418f-43eb-9f48-40e2c915927e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.УчетнаяПолитикаОрганизаций" category="Selection">
+				<xr:TypeId>ed88946c-6fe2-4089-8c92-a293fe31886a</xr:TypeId>
+				<xr:ValueId>a087fbbc-fd28-4dfc-ad86-eae778464080</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.УчетнаяПолитикаОрганизаций" category="List">
+				<xr:TypeId>0b527df4-a9bd-441d-98db-bbb9cb825291</xr:TypeId>
+				<xr:ValueId>97344edb-5603-45f4-bd02-2f06a18158c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.УчетнаяПолитикаОрганизаций" category="RecordSet">
+				<xr:TypeId>f3a2610a-198c-43d7-92e3-06f92c857819</xr:TypeId>
+				<xr:ValueId>573ed192-d156-4af2-9caf-076ddad52c80</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.УчетнаяПолитикаОрганизаций" category="RecordKey">
+				<xr:TypeId>02b0b2bb-8488-428f-ba6b-c1d6b73603a8</xr:TypeId>
+				<xr:ValueId>72080a7b-5fa5-45df-9310-5914635dd516</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.УчетнаяПолитикаОрганизаций" category="RecordManager">
+				<xr:TypeId>1e5b464b-3de5-4c9f-8e56-20ca880304ed</xr:TypeId>
+				<xr:ValueId>11bb4b61-86b9-4e3f-acb0-06fb92f6e12d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УчетнаяПолитикаОрганизаций</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Month</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="9d22f97f-924c-41cb-be52-1879d9a715f6">
+				<Properties>
+					<Name>ПрименяетсяУСНДоходыМинусРасходы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="8e1f19d1-5c39-4884-98bd-3e93fc0b3284">
+				<Properties>
+					<Name>ПлательщикНалогаНаПрибыль</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

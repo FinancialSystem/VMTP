@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="5d9fa721-92d5-4abd-bf9e-7ca028af463d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЕдиныеНормыАмортизационныхОтчисленийОсновныхФондов" category="Object">
+				<xr:TypeId>4e72aac3-0c2b-4c31-ac49-46a3300d2558</xr:TypeId>
+				<xr:ValueId>630ae733-2c57-46f5-bb6a-64773cf3539b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЕдиныеНормыАмортизационныхОтчисленийОсновныхФондов" category="Ref">
+				<xr:TypeId>19aa33a9-18b4-4ad4-95db-216226019a79</xr:TypeId>
+				<xr:ValueId>b7ef3dfa-5ea8-433d-bfee-0746ec1817dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЕдиныеНормыАмортизационныхОтчисленийОсновныхФондов" category="Selection">
+				<xr:TypeId>5bab2f5f-f997-4540-a585-98207efb010d</xr:TypeId>
+				<xr:ValueId>03aa2b9d-4ec7-4544-847a-1c5f4fd96cc2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЕдиныеНормыАмортизационныхОтчисленийОсновныхФондов" category="List">
+				<xr:TypeId>11e2be6a-dc1a-4b9e-a23c-237d7701019c</xr:TypeId>
+				<xr:ValueId>c1cc589f-f7ba-4865-9c76-9eb1c6b586a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЕдиныеНормыАмортизационныхОтчисленийОсновныхФондов" category="Manager">
+				<xr:TypeId>b7ffc4a6-8b95-4e64-bc9a-28399fd66a25</xr:TypeId>
+				<xr:ValueId>fd093c50-35b1-4110-8f60-ee2d4711788e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЕдиныеНормыАмортизационныхОтчисленийОсновныхФондов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

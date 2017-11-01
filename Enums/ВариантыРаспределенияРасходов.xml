@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="0c83b907-e1bf-41c3-ad86-6ce8b08b7779">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыРаспределенияРасходов" category="Ref">
+				<xr:TypeId>5beb1225-fe6b-40c9-afe4-6fa26042a7b2</xr:TypeId>
+				<xr:ValueId>6da8d6a5-3cae-4120-a6b4-a46177e49854</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыРаспределенияРасходов" category="Manager">
+				<xr:TypeId>8d90f997-21f5-494c-bfe7-b973ebaf2d0e</xr:TypeId>
+				<xr:ValueId>33dd212a-2b4f-4c6f-93bc-d9a5c515b4e2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыРаспределенияРасходов" category="List">
+				<xr:TypeId>cbebeb92-dbe7-4c21-9a9e-f1d581dedf5b</xr:TypeId>
+				<xr:ValueId>4039748a-b376-4bfa-8176-ad82808f4f71</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыРаспределенияРасходов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="54399ace-9e29-4e08-9c36-27a57bad2bd1">
+				<Properties>
+					<Name>НаСебестоимостьТоваров</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1e336a24-3643-4205-87eb-7863f85c787e">
+				<Properties>
+					<Name>НаНаправленияДеятельности</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="254316bd-6902-476b-badb-e57bceff56f2">
+				<Properties>
+					<Name>НаРасходыБудущихПериодов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3ea45c78-c2ef-4143-9683-eadbfdf5f128">
+				<Properties>
+					<Name>НаПроизводственныеЗатраты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ec63e7f2-6860-4e9b-bf51-832d549a7c88">
+				<Properties>
+					<Name>НаПрочиеАктивы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="46138adb-0e58-4bb2-9615-d3d09367f133">
+				<Properties>
+					<Name>НеРаспределять</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="24eba3f6-c18b-4c0c-8c3f-dc4465c45e05">
+				<Properties>
+					<Name>НаВнеоборотныеАктивы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="da7b76df-0dc3-41e4-bc68-5ea960d7a9e0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыФинансовогоУчетаВнеоборотныхАктивов" category="Object">
+				<xr:TypeId>6633c5d5-555d-4258-b76a-31a9f9c5b79a</xr:TypeId>
+				<xr:ValueId>76438ce4-72e5-4563-a075-b9ffb8928386</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыФинансовогоУчетаВнеоборотныхАктивов" category="Ref">
+				<xr:TypeId>34e39808-63a3-4877-b97c-adadd727530a</xr:TypeId>
+				<xr:ValueId>e6a7d62d-a201-4f60-bc97-b62278c99b7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыФинансовогоУчетаВнеоборотныхАктивов" category="Selection">
+				<xr:TypeId>ce362cfa-6972-434e-ba77-367eaf3cb3f0</xr:TypeId>
+				<xr:ValueId>c128977f-e22d-4f47-97f8-cf9aba463f45</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыФинансовогоУчетаВнеоборотныхАктивов" category="List">
+				<xr:TypeId>67325527-6151-401d-a89e-f8c2b7a2d8be</xr:TypeId>
+				<xr:ValueId>fcadd0a3-2422-4900-95c6-5aed1645dd6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыФинансовогоУчетаВнеоборотныхАктивов" category="Manager">
+				<xr:TypeId>95c5223d-bfbb-4253-8315-c16d410c5187</xr:TypeId>
+				<xr:ValueId>105f51da-da1a-456b-8424-639f8a05a972</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГруппыФинансовогоУчетаВнеоборотныхАктивов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

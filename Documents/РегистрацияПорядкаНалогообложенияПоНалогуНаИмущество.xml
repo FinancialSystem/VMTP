@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Document uuid="a015d539-df6d-4a80-b810-aab5d308722d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РегистрацияПорядкаНалогообложенияПоНалогуНаИмущество" category="Object">
+				<xr:TypeId>d7def85c-e669-443b-a98b-1adf5cb7a0c0</xr:TypeId>
+				<xr:ValueId>22a20ace-4659-4986-a73b-f01d840caf5e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РегистрацияПорядкаНалогообложенияПоНалогуНаИмущество" category="Ref">
+				<xr:TypeId>f9e6f11d-ac51-4d24-810b-22ab7f517c5b</xr:TypeId>
+				<xr:ValueId>3b5d9f62-9351-4db9-9d5a-3df08aab9c73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РегистрацияПорядкаНалогообложенияПоНалогуНаИмущество" category="Selection">
+				<xr:TypeId>5da06354-c033-41a2-9cd1-713215011130</xr:TypeId>
+				<xr:ValueId>16943d2c-6476-4559-b531-9655391270f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РегистрацияПорядкаНалогообложенияПоНалогуНаИмущество" category="List">
+				<xr:TypeId>948ab022-01cd-43fe-b0f5-9c0eb4608979</xr:TypeId>
+				<xr:ValueId>c7a67706-d00a-4a42-a1f0-8ce827c340e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РегистрацияПорядкаНалогообложенияПоНалогуНаИмущество" category="Manager">
+				<xr:TypeId>81bae0a0-4646-45cb-befb-2e9b4b574037</xr:TypeId>
+				<xr:ValueId>c6cf1cfc-00fa-4f1a-8b90-3067d4889f3d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РегистрацияПорядкаНалогообложенияПоНалогуНаИмущество</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9fb75a28-d7f5-4ea2-bbc5-f4fc74c215c4">
+				<Properties>
+					<Name>ПорядокНалогообложения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПорядокНалогообложенияИмущества</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="03024082-cfd3-4e93-b3dd-0b10a7c9d755">
+				<Properties>
+					<Name>ИспользуетсяТолькоВДеятельностиОблагаемойЕНВД</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e443e7bf-a4f6-4159-b10c-bf1b204905e5">
+				<Properties>
+					<Name>ВидОбъектаНалогаНаИмущество</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыОбъектовНалогаНаИмущество</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="85aa7945-ffda-45f3-9c67-76cdd50ef5f1">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2bf67439-91de-4402-a065-71e9b8f696fe">
+				<Properties>
+					<Name>НалоговаяБаза</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.НалоговаяБазаПоНалогуНаИмущество</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="49502a3a-b141-46af-b9ea-703f9021829c">
+				<Properties>
+					<Name>КодНалоговойЛьготыОсвобождениеОтНалогообложения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>7</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f054d5ba-98df-416d-84c6-2ff7ce68e747">
+				<Properties>
+					<Name>НалоговаяСтавка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5ffa6196-9016-40c5-950c-2afbc39c36b8">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="91997fc7-3cf0-429f-b572-d2295375a84a">
+				<Properties>
+					<Name>НалоговыйОрган</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.РегистрацииВНалоговомОргане</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f38a03f5-fdfe-4cb9-807d-5de8e32a9dbc">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="da0e25ff-cf96-41b4-9897-e78bcbe647cd">
+				<Properties>
+					<Name>ПостановкаНаУчетВНалоговомОргане</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПостановкаНаУчетВНалоговомОргане</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4f89247e-aabd-4208-bb89-0f38eefb8908">
+				<Properties>
+					<Name>КодВидаИмущества</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>2</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7bacdcba-fd01-4adb-8a1b-cf2f9c4a3938">
+				<Properties>
+					<Name>КБК</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="189fe184-553e-4d77-bd2a-eea0144bddf1">
+				<Properties>
+					<Name>СниженнаяНалоговаяСтавка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="efd483d5-f306-4fb1-8150-5f3b9541d848">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РегистрацияПорядкаНалогообложенияПоНалогуНаИмущество.ОтражениеРасходов" category="TabularSection">
+						<xr:TypeId>a6f4b274-fcfb-4def-8d5c-fa9ac6a4f4cd</xr:TypeId>
+						<xr:ValueId>140725ba-7bee-4b21-8107-b834d0239c5b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РегистрацияПорядкаНалогообложенияПоНалогуНаИмущество.ОтражениеРасходов" category="TabularSectionRow">
+						<xr:TypeId>5e6de270-0f3e-4163-be5b-68584dbb7e50</xr:TypeId>
+						<xr:ValueId>35fec3b1-3848-4c2d-aed6-20b783bb6f66</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОтражениеРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="fb057d7f-5446-4513-b385-1967e47d0a3f">
+						<Properties>
+							<Name>СтатьяРасходов</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ac80b491-09b7-45e5-9a6f-d86a308f2d90">
+						<Properties>
+							<Name>АналитикаРасходов</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fa5c9668-8562-4879-88dc-2693be0f5eda">
+						<Properties>
+							<Name>Подразделение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="760ac9c0-6ce0-46b6-bb37-eec8130f5a3c">
+						<Properties>
+							<Name>Коэффициент</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="11a1fdaf-fc05-4374-a1cc-4e0645f63bad">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РегистрацияПорядкаНалогообложенияПоНалогуНаИмущество.ОС" category="TabularSection">
+						<xr:TypeId>ec7be137-6508-42bb-b61d-e531da42a219</xr:TypeId>
+						<xr:ValueId>0cdfb8c2-8c04-4965-b5e8-063668575261</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РегистрацияПорядкаНалогообложенияПоНалогуНаИмущество.ОС" category="TabularSectionRow">
+						<xr:TypeId>953afa88-0a95-43ee-ba35-47c044ec91c7</xr:TypeId>
+						<xr:ValueId>bccc7f54-0b54-47a6-952b-41ef54ec6c03</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="1b9c91ea-0579-4e95-9717-04225f5a4f4b">
+						<Properties>
+							<Name>ДоляСтоимостиЗнаменатель</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1de3995f-d614-474e-9553-9402ad9d7dca">
+						<Properties>
+							<Name>ДоляПлощадиЧислитель</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bca39004-0c8c-40f4-8bf6-59925321a90f">
+						<Properties>
+							<Name>НеоблагаемаяКадастроваяСтоимость</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fad1f9ad-92ba-4b39-a494-08bfa944990f">
+						<Properties>
+							<Name>КадастроваяСтоимостьОпределенаПоДолеПлощади</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c9e3f90b-84ed-4413-91df-2b58b3ace5c2">
+						<Properties>
+							<Name>ДатаРегистрацииПраваСобственности</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3b7d622e-eca3-4670-8bff-b0c9d1e70960">
+						<Properties>
+							<Name>ДатаПрекращенияПраваСобственности</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="21a16a05-b2c3-4949-a072-0c7ba8afb1c2">
+						<Properties>
+							<Name>ДоляВПравеОбщейСобственностиЧислитель</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c5353d8b-3019-40e0-9e5f-34c2f3ec754e">
+						<Properties>
+							<Name>ДоляПлощадиЗнаменатель</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="794792f1-3ba5-4ce0-b092-018ecafc8f4f">
+						<Properties>
+							<Name>ДоляВПравеОбщейСобственностиЗнаменатель</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fe1f5f0d-3f57-40ec-858d-419cde3499e0">
+						<Properties>
+							<Name>ОтноситсяКТерриторииСубъектаРФВДоле</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="588ebc94-a1d6-4d63-a7b1-81bd0c84c129">
+						<Properties>
+							<Name>ОбщаяСобственность</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b82b1a91-b7c2-4be6-b652-02d4d4624e5d">
+						<Properties>
+							<Name>ОсновноеСредство</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыЭксплуатации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fb1560ec-dd89-42b5-9404-0a9ad5269b46">
+						<Properties>
+							<Name>КадастровыйНомерПомещения</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c1bc5e9e-d640-42fe-b6f4-8c1efcda5a75">
+						<Properties>
+							<Name>КадастровыйНомер</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f300a9f0-b57f-486d-95b0-c0924b3682b3">
+						<Properties>
+							<Name>УсловныйНомер</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2b201125-3758-4479-bc9f-2f0604ccb782">
+						<Properties>
+							<Name>КадастроваяСтоимость</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9da836ac-b60f-44ab-9070-ab285e5ff2a2">
+						<Properties>
+							<Name>ДоляСтоимостиЧислитель</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

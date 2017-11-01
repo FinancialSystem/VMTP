@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="22f540f9-3805-48eb-bfbf-c5ec1e58ca51">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.МаркетинговыеМероприятия" category="Object">
+				<xr:TypeId>5948d6a6-3328-4a77-9233-dad64e3a8548</xr:TypeId>
+				<xr:ValueId>e3829657-0d52-41bc-9395-7178e57095a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.МаркетинговыеМероприятия" category="Ref">
+				<xr:TypeId>f3f6bcf9-ee8a-4e35-9015-b7f0dab4239c</xr:TypeId>
+				<xr:ValueId>d50549fb-f13a-4546-a363-98751e4bd64c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.МаркетинговыеМероприятия" category="Selection">
+				<xr:TypeId>771e8abb-fbe4-40a6-80d7-e5bdbc267e97</xr:TypeId>
+				<xr:ValueId>2d212b30-95a5-46c3-9190-ab3efc225a72</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.МаркетинговыеМероприятия" category="List">
+				<xr:TypeId>57460db8-598f-4ad3-bd55-a2d887e043ca</xr:TypeId>
+				<xr:ValueId>83f3f541-2a37-4cc3-9584-141e9f186f8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.МаркетинговыеМероприятия" category="Manager">
+				<xr:TypeId>e67b5f19-2a38-4438-b5a8-b6cfc8310b7a</xr:TypeId>
+				<xr:ValueId>d77bfe88-418f-4ec6-940c-0148aedfc7ca</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МаркетинговыеМероприятия</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

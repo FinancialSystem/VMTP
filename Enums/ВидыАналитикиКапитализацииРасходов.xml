@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="5d405165-9859-4ba2-9920-adfe62229ed7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыАналитикиКапитализацииРасходов" category="Ref">
+				<xr:TypeId>18e7e3ad-9ac8-4d33-b241-23dfb46a87b3</xr:TypeId>
+				<xr:ValueId>104da28c-5891-47e3-80fe-77a9678180d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыАналитикиКапитализацииРасходов" category="Manager">
+				<xr:TypeId>3801aca4-b367-492a-9548-ec0da26ff372</xr:TypeId>
+				<xr:ValueId>df2e492d-6bee-405f-b57f-abb6b1811718</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыАналитикиКапитализацииРасходов" category="List">
+				<xr:TypeId>90261a31-b9f6-4d61-9ffc-102581e3df04</xr:TypeId>
+				<xr:ValueId>7189c16d-d654-4f27-8f8a-1035c8545015</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыАналитикиКапитализацииРасходов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="7d5e8f6c-33f8-498e-a4cd-bfe28a3f2090">
+				<Properties>
+					<Name>ОбъектСтроительства</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9094b90c-49b6-41c3-9b95-5c5bd8fdf63c">
+				<Properties>
+					<Name>ОсновныеСредства</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

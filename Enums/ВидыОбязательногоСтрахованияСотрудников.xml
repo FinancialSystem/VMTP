@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="72ce6555-5d70-4297-992a-8d8c3edb46a0">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОбязательногоСтрахованияСотрудников" category="Ref">
+				<xr:TypeId>a96deb36-de5d-4a63-b888-73beac63c533</xr:TypeId>
+				<xr:ValueId>7f171cfb-a78b-4fcc-b0ea-2e9d415cde90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОбязательногоСтрахованияСотрудников" category="Manager">
+				<xr:TypeId>0df0ef80-a84c-4c8f-a2f4-3de4bcd268fa</xr:TypeId>
+				<xr:ValueId>254b0b80-0af9-45d4-a6df-323a470feba5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОбязательногоСтрахованияСотрудников" category="List">
+				<xr:TypeId>7b5820f5-4ac3-46cd-ae26-017ae8eccdc1</xr:TypeId>
+				<xr:ValueId>c0ceadd2-899c-4144-a097-5e80d9c4bac7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОбязательногоСтрахованияСотрудников</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

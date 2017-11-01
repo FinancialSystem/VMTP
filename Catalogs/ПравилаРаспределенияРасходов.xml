@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="490a718c-1f2d-4f9b-ae87-8e006588452e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПравилаРаспределенияРасходов" category="Object">
+				<xr:TypeId>016aaeea-7fac-40fd-b2f0-83065d2aee83</xr:TypeId>
+				<xr:ValueId>d2ada75f-babd-49b3-b70d-01c3d50412ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПравилаРаспределенияРасходов" category="Ref">
+				<xr:TypeId>69e3465b-e109-43ad-b356-de4fb802775e</xr:TypeId>
+				<xr:ValueId>ccce9974-0c6f-4c5e-8d35-98b72438d313</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПравилаРаспределенияРасходов" category="Selection">
+				<xr:TypeId>7a8443d2-d6b9-40f2-aece-b8456995a04d</xr:TypeId>
+				<xr:ValueId>a7c1a536-7a87-4407-afa2-e99efb7c097f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПравилаРаспределенияРасходов" category="List">
+				<xr:TypeId>1a190b1b-cdd8-4afa-ab48-f86819ec7f39</xr:TypeId>
+				<xr:ValueId>1db654da-6842-42f2-a376-54dfff18c590</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПравилаРаспределенияРасходов" category="Manager">
+				<xr:TypeId>92758a95-7ad3-4e19-9cd2-624a72cd5415</xr:TypeId>
+				<xr:ValueId>56bf2370-3b16-4347-b5ef-2286d7982b7c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПравилаРаспределенияРасходов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

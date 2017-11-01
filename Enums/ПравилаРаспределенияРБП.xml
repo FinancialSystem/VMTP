@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="00b36f34-007d-4019-bc32-60d9875f1373">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПравилаРаспределенияРБП" category="Ref">
+				<xr:TypeId>40ebf6af-15f0-4394-963c-d69f8efaa60a</xr:TypeId>
+				<xr:ValueId>747ae20f-dc52-4a81-a23b-591b7a6f63d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПравилаРаспределенияРБП" category="Manager">
+				<xr:TypeId>5b0b6e51-0312-4926-ac31-eda346719b65</xr:TypeId>
+				<xr:ValueId>4f361d68-69ee-496b-a444-0becd56b7f0f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПравилаРаспределенияРБП" category="List">
+				<xr:TypeId>71148d43-6762-46a4-9ae4-34dc643b3c79</xr:TypeId>
+				<xr:ValueId>ca853dcb-9008-4914-a708-58d2224a2453</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПравилаРаспределенияРБП</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

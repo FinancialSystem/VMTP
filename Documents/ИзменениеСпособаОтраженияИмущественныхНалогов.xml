@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Document uuid="bd489776-c8da-4aeb-af12-71858d3e7199">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеСпособаОтраженияИмущественныхНалогов" category="Object">
+				<xr:TypeId>61499053-cff8-4b42-ac7d-4b1b07519102</xr:TypeId>
+				<xr:ValueId>b41b0936-af2d-4d30-aafa-f85671f9251d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеСпособаОтраженияИмущественныхНалогов" category="Ref">
+				<xr:TypeId>84a9d4cc-7ab8-41d2-a36c-b2a4927e3b2b</xr:TypeId>
+				<xr:ValueId>dc4c73d6-4434-4127-aec6-2c09563f9c80</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеСпособаОтраженияИмущественныхНалогов" category="Selection">
+				<xr:TypeId>cdf857dd-8508-4f20-a9d1-6a7bcae7dfad</xr:TypeId>
+				<xr:ValueId>54470d49-3e92-4dcf-80db-9ab2597c2093</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеСпособаОтраженияИмущественныхНалогов" category="List">
+				<xr:TypeId>405ff7c9-b753-4e01-8518-c43298b16381</xr:TypeId>
+				<xr:ValueId>181dc6c5-85a6-42b4-b6e2-e58db185274a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеСпособаОтраженияИмущественныхНалогов" category="Manager">
+				<xr:TypeId>b298dc23-4d3b-4ea2-bcb1-9b20fb70f685</xr:TypeId>
+				<xr:ValueId>dc9bcf77-3d4b-4dda-b446-84a069398360</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеСпособаОтраженияИмущественныхНалогов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="5336f371-6c21-487e-8abb-f72fd5c0c54d">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="846d9545-612e-4d09-a06a-1d3c7b2d4faf">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="55dd6fe4-0c25-45f3-acb4-a8f5b471dc4e">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="24631b7a-01bd-40a3-a612-053c7d34fea9">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИзменениеСпособаОтраженияИмущественныхНалогов.ОС" category="TabularSection">
+						<xr:TypeId>3a27bef6-1c2e-447f-9663-aeb2fa1031d7</xr:TypeId>
+						<xr:ValueId>5458dd6a-2def-4ba6-858b-59c174da1c9f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИзменениеСпособаОтраженияИмущественныхНалогов.ОС" category="TabularSectionRow">
+						<xr:TypeId>7dce78f4-63e0-44be-8492-fa997d4c94a9</xr:TypeId>
+						<xr:ValueId>1107aac2-b4c0-47d8-8ee5-f47f13aa0ba3</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4c968f66-cb1d-4e34-a5af-95150b414c42">
+						<Properties>
+							<Name>ОсновноеСредство</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыЭксплуатации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="8cb620af-7239-4c5c-a9e7-a5ad3b64dc58">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИзменениеСпособаОтраженияИмущественныхНалогов.ОтражениеРасходов" category="TabularSection">
+						<xr:TypeId>7eea8e34-9fb9-4c9e-98d7-23776493770f</xr:TypeId>
+						<xr:ValueId>8e461cce-98e7-4c71-8438-71e1c2ffb1c5</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИзменениеСпособаОтраженияИмущественныхНалогов.ОтражениеРасходов" category="TabularSectionRow">
+						<xr:TypeId>6fdaca28-d296-4a24-a366-72b8dcee00ab</xr:TypeId>
+						<xr:ValueId>32d0d827-2ac9-45c3-b9fc-4f3e28ce38f9</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОтражениеРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="5ccc5efb-dc44-4535-82be-129cc9989af9">
+						<Properties>
+							<Name>Подразделение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2f018ae7-9972-4d1e-acf0-de0dfcc86330">
+						<Properties>
+							<Name>АналитикаРасходов</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6b261359-285b-4d96-b033-94310463892a">
+						<Properties>
+							<Name>Коэффициент</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5aa30e59-ff83-412c-8ef6-658439c25c28">
+						<Properties>
+							<Name>СтатьяРасходов</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

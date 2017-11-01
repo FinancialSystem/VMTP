@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="83d7ca68-4594-4f7d-aaa8-ac205ead9d2a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СпособыРаспределенияПоНаправлениямДеятельности" category="Object">
+				<xr:TypeId>36b7cdf7-0e58-407e-afb6-020324a2d3b2</xr:TypeId>
+				<xr:ValueId>403aa59a-2909-4b4d-a0f0-b2ff67577a71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СпособыРаспределенияПоНаправлениямДеятельности" category="Ref">
+				<xr:TypeId>1e5d5ae2-d9dc-40af-a2fb-54f6e8e7bb5e</xr:TypeId>
+				<xr:ValueId>a3e4da67-a6b8-4461-b89a-3654ad455da3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СпособыРаспределенияПоНаправлениямДеятельности" category="Selection">
+				<xr:TypeId>669df0bd-410d-4a67-a301-a3551be229bc</xr:TypeId>
+				<xr:ValueId>7ea7d308-1c65-49f8-a498-67916e65815e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СпособыРаспределенияПоНаправлениямДеятельности" category="List">
+				<xr:TypeId>e525056b-4b67-4bb5-a443-cbd7f88dad99</xr:TypeId>
+				<xr:ValueId>a7a5144d-c2c4-4d78-a87d-e3d477658a0c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СпособыРаспределенияПоНаправлениямДеятельности" category="Manager">
+				<xr:TypeId>12fcac01-8284-4eef-ab35-bd016a9eed83</xr:TypeId>
+				<xr:ValueId>7f9fa511-f472-4f06-9bac-97476821248b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыРаспределенияПоНаправлениямДеятельности</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

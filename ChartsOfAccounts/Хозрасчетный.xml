@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<ChartOfAccounts uuid="c457459f-07ec-49ee-acbf-59d805580906">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfAccountsObject.Хозрасчетный" category="Object">
+				<xr:TypeId>a1dfc2af-4802-4dce-acbd-e50332900c31</xr:TypeId>
+				<xr:ValueId>ecb294f1-6f14-4b65-9d27-241912649ed8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsRef.Хозрасчетный" category="Ref">
+				<xr:TypeId>5ef23b14-08de-4d12-a7cc-027b217956e7</xr:TypeId>
+				<xr:ValueId>9c6c5123-94aa-4786-a512-f6ea41956006</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsSelection.Хозрасчетный" category="Selection">
+				<xr:TypeId>c6c5ec2c-69f4-49a8-817e-ed832a5ea5a1</xr:TypeId>
+				<xr:ValueId>7ea19f6a-0459-4fe1-b03e-af3101c6fd54</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsList.Хозрасчетный" category="List">
+				<xr:TypeId>fd6d53d3-c97f-4081-b476-ee54c4937d7e</xr:TypeId>
+				<xr:ValueId>acc8336c-8cd7-48b3-98d2-695747ff90d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsManager.Хозрасчетный" category="Manager">
+				<xr:TypeId>56bcd2db-f797-42a7-9944-c61b5d50bbff</xr:TypeId>
+				<xr:ValueId>25ccdcfb-b728-40d2-9d8e-dbdb6222a040</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsExtDimensionTypes.Хозрасчетный" category="ExtDimensionTypes">
+				<xr:TypeId>b6f7b662-6941-485a-96cc-b3e43db3189a</xr:TypeId>
+				<xr:ValueId>5764a4fa-1ed6-40bb-a932-664affd3d06b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsExtDimensionTypesRow.Хозрасчетный" category="ExtDimensionTypesRow">
+				<xr:TypeId>3fc1e9c1-ab9b-4da0-8ed5-c0764fe1ae95</xr:TypeId>
+				<xr:ValueId>023ce876-ff0f-4830-a8c2-893aa8a95fa4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Хозрасчетный</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>8</CodeLength>
+			<DescriptionLength>120</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="3a3ec44c-eea5-4927-8d9a-dcb9b908afd0">
+				<Properties>
+					<Name>ЗапретитьИспользоватьВПроводках</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7617c6df-3349-40ee-adbb-b78ac689cc80">
+				<Properties>
+					<Name>КодБыстрогоВыбора</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>8</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<AccountingFlag uuid="9e2fafe9-6e75-4cb4-941b-fb830b11c8be">
+				<Properties>
+					<Name>УчетПоНаправлениямДеятельности</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</AccountingFlag>
+			<AccountingFlag uuid="71dab353-40e9-458a-9a1f-01c416371932">
+				<Properties>
+					<Name>УчетПоПодразделениям</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</AccountingFlag>
+			<AccountingFlag uuid="72e94eba-ffa7-4f3a-aec5-86f54e9f5430">
+				<Properties>
+					<Name>НалоговыйУчет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</AccountingFlag>
+			<AccountingFlag uuid="35e29a83-8ae9-4439-b793-4678dc39f969">
+				<Properties>
+					<Name>Количественный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</AccountingFlag>
+			<AccountingFlag uuid="a0c427d6-c759-4bd3-ac88-9bdfa185326f">
+				<Properties>
+					<Name>Валютный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</AccountingFlag>
+			<Form>ФормаВыбора</Form>
+		</ChildObjects>
+	</ChartOfAccounts>
+</MetaDataObject>

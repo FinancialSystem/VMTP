@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="edcdf60a-fdc9-482c-a1ef-ba6365113730">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОбщероссийскийКлассификаторОсновныхФондов" category="Object">
+				<xr:TypeId>d7082abf-47a1-44e1-a89c-e9faac868668</xr:TypeId>
+				<xr:ValueId>0de863c6-35e4-4b5a-aa36-64009ac91d08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОбщероссийскийКлассификаторОсновныхФондов" category="Ref">
+				<xr:TypeId>ebf384c5-b49d-4a46-abd1-5f0822bd294f</xr:TypeId>
+				<xr:ValueId>d8c75300-0cf7-4b7e-bd48-fd6cd8f2045e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОбщероссийскийКлассификаторОсновныхФондов" category="Selection">
+				<xr:TypeId>17c6e748-6783-463e-8279-e64f5b0d57b2</xr:TypeId>
+				<xr:ValueId>e36ce528-610d-4aa0-8448-1759b6250a77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОбщероссийскийКлассификаторОсновныхФондов" category="List">
+				<xr:TypeId>dab5b627-5e77-49f3-8a80-7787d881907b</xr:TypeId>
+				<xr:ValueId>b943ff46-67af-4cc1-ad25-e52fd303d2d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОбщероссийскийКлассификаторОсновныхФондов" category="Manager">
+				<xr:TypeId>9e484d18-843e-420d-8274-1b0d9e6263b5</xr:TypeId>
+				<xr:ValueId>65ffd305-e6f1-43e5-9cd7-a7d03de06b48</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОбщероссийскийКлассификаторОсновныхФондов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>16</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

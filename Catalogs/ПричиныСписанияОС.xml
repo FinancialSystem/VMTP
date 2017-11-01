@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Catalog uuid="142af8dd-7f7a-487a-b371-158dbdf70828">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПричиныСписанияОС" category="Object">
+				<xr:TypeId>32905ed8-75db-49a5-9641-6ec20a746779</xr:TypeId>
+				<xr:ValueId>9b2b91ad-c302-4f4a-9bea-544e7da85f85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПричиныСписанияОС" category="Ref">
+				<xr:TypeId>cf0e3788-c44d-472e-b1a8-cca27a2b4455</xr:TypeId>
+				<xr:ValueId>7c6ba808-1a76-4ae7-a8e6-296270b9e141</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПричиныСписанияОС" category="Selection">
+				<xr:TypeId>66c585f2-2b5b-4cb0-9ce2-54738f5d557d</xr:TypeId>
+				<xr:ValueId>f3220238-b8c1-4b9d-adac-cdae69b33715</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПричиныСписанияОС" category="List">
+				<xr:TypeId>ba00ba7e-8fcc-4371-9125-577ffee78c0b</xr:TypeId>
+				<xr:ValueId>3342e8e2-4503-4c0f-91b8-f7bdee9b23b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПричиныСписанияОС" category="Manager">
+				<xr:TypeId>32efde85-c09b-4425-bd68-8da7de012b0b</xr:TypeId>
+				<xr:ValueId>06de2fbe-42b2-4347-8dcd-023a337a9a0e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПричиныСписанияОС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

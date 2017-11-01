@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Document uuid="02851a35-4e7a-413e-92ac-915568ca794a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РаспределениеПрочихЗатрат" category="Object">
+				<xr:TypeId>155fe81a-194b-415f-913f-a7f46e780167</xr:TypeId>
+				<xr:ValueId>08f8a40a-fa50-478a-a4f7-f69a4e567320</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РаспределениеПрочихЗатрат" category="Ref">
+				<xr:TypeId>5875c292-753d-4f96-b4b0-a999b06ccd62</xr:TypeId>
+				<xr:ValueId>f38b3f8d-0856-4718-9472-2ccbaadc7b8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РаспределениеПрочихЗатрат" category="Selection">
+				<xr:TypeId>32ea5940-0809-4f78-8bb6-edae25ea1a0c</xr:TypeId>
+				<xr:ValueId>76af4d37-2757-45d5-bd6b-1017df6e0727</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РаспределениеПрочихЗатрат" category="List">
+				<xr:TypeId>ecd8a60a-b223-4ab1-b0c6-6eafcfcc8dc8</xr:TypeId>
+				<xr:ValueId>40b49b04-cc1d-4c44-81b5-26f700f2c6a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РаспределениеПрочихЗатрат" category="Manager">
+				<xr:TypeId>d67e75e4-b9cd-4c6a-9176-21e4bf025e2e</xr:TypeId>
+				<xr:ValueId>0dc040ca-448f-4894-a5e3-8a649ff761e6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РаспределениеПрочихЗатрат</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="90a024a2-bb8b-41ce-b18e-18181e80c5e3">
+				<Properties>
+					<Name>ВариантРаспределения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыРаспределенияСтатейРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2525fcd2-013b-456e-8400-12e83f33efcb">
+				<Properties>
+					<Name>ПравилоРаспределенияПоПодразделениям</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПравилаРаспределенияРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3f3cc248-2309-4c9e-9072-134f0c56933a">
+				<Properties>
+					<Name>АналитикаРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a5ccbe2c-912b-4120-9b16-a4d47691eb56">
+				<Properties>
+					<Name>ДоляСтоимостиПоПравилам</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b2e814f7-93c1-4c13-a622-bcb746cdcb5e">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="620a5f56-c7ba-4ae2-99db-882c3f6c484e">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="defc2f22-cbec-40a1-9797-cb0081562322">
+				<Properties>
+					<Name>ПравилоРаспределенияПоЭтапам</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПравилаРаспределенияРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2692e467-8716-4ccb-b262-6f8e4396be91">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3eb405d9-9ab9-4c5d-9d1c-463935154c97">
+				<Properties>
+					<Name>НаправлениеДеятельности</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.НаправленияДеятельности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8def5f07-ff45-47c2-9cc2-b6ba56072d9e">
+				<Properties>
+					<Name>СтатьяРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2b7658db-42af-4600-b3c5-87bd4d8c004a">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9877c546-01ef-4a54-bff5-022a95aa3b22">
+				<Properties>
+					<Name>СтатьяКалькуляции</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатьиКалькуляции</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="5bc47668-adb7-4bae-aca2-d02c2a3485ef">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РаспределениеПрочихЗатрат.ПартииПроизводства" category="TabularSection">
+						<xr:TypeId>d8497477-2b1b-4d3f-b353-42fad9550898</xr:TypeId>
+						<xr:ValueId>373c8a5d-47c7-4045-8724-6cc3f59b5908</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РаспределениеПрочихЗатрат.ПартииПроизводства" category="TabularSectionRow">
+						<xr:TypeId>809cd248-ecf7-4a2c-b758-0cdf9c8ef01c</xr:TypeId>
+						<xr:ValueId>bee384c5-42e7-4f95-8976-baa22c9e1891</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ПартииПроизводства</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="e4d80fb3-d4df-4259-8882-a67dbb783311">
+						<Properties>
+							<Name>ДоляСтоимости</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d6112b7d-f71f-43ad-ae93-e32023500cff">
+						<Properties>
+							<Name>Подразделение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0e020734-1ca6-4188-823b-cb5408f27571">
+						<Properties>
+							<Name>ПартияПроизводства</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДокументПартииПроизводства</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5879da89-0542-4004-9398-83da9ddae492">
+						<Properties>
+							<Name>СтатьяКалькуляции</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СтатьиКалькуляции</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="dc90279b-abeb-46ea-879f-114890b7f6fc">
+						<Properties>
+							<Name>Этап</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="916c7e27-e7d8-48b3-bf3c-5fbe70246865">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РаспределениеПрочихЗатрат.ПоБазе" category="TabularSection">
+						<xr:TypeId>bdfbf8d9-7ead-427f-b693-3d4a327b9f7c</xr:TypeId>
+						<xr:ValueId>3f5b259e-5577-4a43-a686-f14b97a15d0b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РаспределениеПрочихЗатрат.ПоБазе" category="TabularSectionRow">
+						<xr:TypeId>833402f5-9b59-4e11-9fec-a8eb93577697</xr:TypeId>
+						<xr:ValueId>ed7a2cff-c2b3-454e-a241-a5c249713554</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ПоБазе</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="e08984fd-35a3-4fb8-a818-a24e408630f5">
+						<Properties>
+							<Name>Подразделение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3a5bf4d6-1d28-4a04-b67d-a80e6354765f">
+						<Properties>
+							<Name>СтатьяКалькуляции</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СтатьиКалькуляции</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6a4275ac-3d3c-4c4b-9cc4-23fd7609b7a1">
+						<Properties>
+							<Name>ДоляСтоимости</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="0a7418a4-78ad-4b4a-822f-ae84638d50ab">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РаспределениеПрочихЗатрат.Вручную" category="TabularSection">
+						<xr:TypeId>5799a638-b2a6-41e3-8141-59655e35f48e</xr:TypeId>
+						<xr:ValueId>44f732f1-4834-4f65-af12-348887ff2d0e</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РаспределениеПрочихЗатрат.Вручную" category="TabularSectionRow">
+						<xr:TypeId>c58744f7-25c1-489c-9728-f4132209b4be</xr:TypeId>
+						<xr:ValueId>7514d7bd-4fe4-43a1-89ed-0bed2566a188</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Вручную</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="a5623fdb-05c3-46a1-9320-5b1aa6e14815">
+						<Properties>
+							<Name>Этап</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ЭтапыПроизводства</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c3eb5e87-a187-4c1f-bc90-460d88396ab9">
+						<Properties>
+							<Name>ЗаказНаПроизводство</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a6ce5637-2eb0-46b5-818d-07c341b2cb84">
+						<Properties>
+							<Name>ДоляСтоимости</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="eba581ef-a175-4c7a-bc33-e349ce0a76cb">
+						<Properties>
+							<Name>КодСтрокиПродукция</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="580af918-15a8-4867-930d-ec33de62f3fd">
+						<Properties>
+							<Name>СтатьяКалькуляции</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СтатьиКалькуляции</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="409e15de-a9fe-435b-85e7-7efbdbe0722e">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РаспределениеПрочихЗатрат.ВыпускиБезРаспоряжения" category="TabularSection">
+						<xr:TypeId>cce92232-9107-4474-8c73-7934b1ce0841</xr:TypeId>
+						<xr:ValueId>b4f2419a-5e7b-4fd5-a7a7-cb98cf99732c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РаспределениеПрочихЗатрат.ВыпускиБезРаспоряжения" category="TabularSectionRow">
+						<xr:TypeId>7c579239-31a4-4f1e-9151-641460508b5a</xr:TypeId>
+						<xr:ValueId>e36ef67a-7866-4f24-a900-dffffff7fbe5</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ВыпускиБезРаспоряжения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="127e78c4-b45a-4e7d-a14f-8fd6f66ff4f3">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РаспределениеПрочихЗатрат.Списание" category="TabularSection">
+						<xr:TypeId>4f5c8b7d-3a4e-4e72-8533-070f040424c3</xr:TypeId>
+						<xr:ValueId>727fb226-bd7f-4d06-b48c-08fa6ba06ace</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РаспределениеПрочихЗатрат.Списание" category="TabularSectionRow">
+						<xr:TypeId>62e4845c-970e-4d0e-b9d8-7c57aaac3663</xr:TypeId>
+						<xr:ValueId>ba02bb4f-20ba-4752-af56-99765ca5a6cb</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Списание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="66424877-ef9e-493c-a721-8b917012188e">
+						<Properties>
+							<Name>АналитикаРасходов</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a480394e-11eb-412d-9dde-4006bed61f47">
+						<Properties>
+							<Name>АналитикаАктивовПассивов</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиАктивовПассивов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="424d36d8-e34a-4128-928d-3b5df4fdec92">
+						<Properties>
+							<Name>ДоляСтоимости</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6a2e79c2-e3fe-4abd-8d1e-306a38cb3a79">
+						<Properties>
+							<Name>СтатьяРасходов</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fec7bf7c-2a30-4540-bb7b-7fa952fb791e">
+						<Properties>
+							<Name>НаправлениеДеятельности</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.НаправленияДеятельности</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

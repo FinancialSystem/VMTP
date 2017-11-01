@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="d6acd502-7ac4-46db-8dbc-2b8b614ebfd4">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДеятельностиРасходов" category="Ref">
+				<xr:TypeId>5b0bb083-ed01-4558-8e0a-cb97b4729cc1</xr:TypeId>
+				<xr:ValueId>163a3bca-4353-487d-b2a8-051c6a0ea987</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДеятельностиРасходов" category="Manager">
+				<xr:TypeId>4c65de69-1557-4f8e-9b04-2f05d47a2262</xr:TypeId>
+				<xr:ValueId>59842616-a964-40f9-b0a9-55aa025aa9dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДеятельностиРасходов" category="List">
+				<xr:TypeId>b2e7d6b9-3693-48ef-aec6-036e3c4ea09f</xr:TypeId>
+				<xr:ValueId>13d59b37-8fd8-441d-aa20-4ab8459faf44</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыДеятельностиРасходов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="31ce0064-0dc4-4462-a67c-c4458550f2d3">
+				<Properties>
+					<Name>ПрочаяДеятельность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d7c6eb1a-97fc-42dd-b9fc-7d964c150dcf">
+				<Properties>
+					<Name>ОсновнаяИПрочаяДеятельность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="863d6356-a170-49a4-b696-5151b8d1f7a9">
+				<Properties>
+					<Name>ОсновнаяДеятельность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

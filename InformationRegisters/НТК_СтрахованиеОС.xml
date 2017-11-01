@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<InformationRegister uuid="b00aa1e7-b009-48e6-a6c7-c8cec7c9796d">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НТК_СтрахованиеОС" category="Record">
+				<xr:TypeId>08b6a810-f036-4a27-a288-8f9a836132d7</xr:TypeId>
+				<xr:ValueId>e903d08e-1ec0-4b7f-a423-5282b14850b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НТК_СтрахованиеОС" category="Manager">
+				<xr:TypeId>7b58e9c9-5b78-43af-ba0c-9874b8d9deaa</xr:TypeId>
+				<xr:ValueId>a9e823c8-6f49-42c0-98bd-7b41b001f248</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НТК_СтрахованиеОС" category="Selection">
+				<xr:TypeId>1db11c34-558b-495d-8880-f967ee2af5ad</xr:TypeId>
+				<xr:ValueId>07f4e76c-574d-4d19-be6f-7ab955ceae68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НТК_СтрахованиеОС" category="List">
+				<xr:TypeId>c5ec5be9-26a2-423c-9e44-98be9ab725dc</xr:TypeId>
+				<xr:ValueId>1a0fc217-ba74-4709-a5c4-61926d19153a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НТК_СтрахованиеОС" category="RecordSet">
+				<xr:TypeId>fb0eb0fb-0c02-42ad-9ec7-fa16f1113435</xr:TypeId>
+				<xr:ValueId>0b282af1-55f8-4483-bbbe-4a1de0b4a3e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НТК_СтрахованиеОС" category="RecordKey">
+				<xr:TypeId>03a7c78b-907b-4a2f-b351-444c9c39ccc9</xr:TypeId>
+				<xr:ValueId>00eef955-c587-4bd3-9e37-e79433de225d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НТК_СтрахованиеОС" category="RecordManager">
+				<xr:TypeId>acf0e2d9-9f4c-4a61-aec1-29b52fe1030b</xr:TypeId>
+				<xr:ValueId>e3d69f3b-aef8-4c7f-9ee9-b0bee89a9a2e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НТК_СтрахованиеОС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

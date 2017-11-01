@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<ChartOfCharacteristicTypes uuid="2ada4802-6805-4a73-ac33-54cd5f93ded2">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.СтатьиРасходов" category="Object">
+				<xr:TypeId>49874a18-d3cd-4960-a9f2-2fa2e6ba12a6</xr:TypeId>
+				<xr:ValueId>30ccfa87-e760-451b-be43-bfce975e3c56</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.СтатьиРасходов" category="Ref">
+				<xr:TypeId>3bde6dcf-6eb1-41df-a290-3b968aaa7882</xr:TypeId>
+				<xr:ValueId>da509b36-81a2-4090-99d9-03744b93db45</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.СтатьиРасходов" category="Selection">
+				<xr:TypeId>f9b0fb6d-cec4-4220-b879-73d0970ea8df</xr:TypeId>
+				<xr:ValueId>d696e62c-0272-4d75-887d-42dd6611f25f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.СтатьиРасходов" category="List">
+				<xr:TypeId>a8228cbd-caf6-40bf-b3c0-cbfc261a3097</xr:TypeId>
+				<xr:ValueId>3198f3c3-3348-48e2-9ea6-edf7bf15d30a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.СтатьиРасходов" category="Characteristic">
+				<xr:TypeId>14d33082-d3f7-4be7-9164-fee58617bc09</xr:TypeId>
+				<xr:ValueId>0a801d31-37fa-4de1-9248-8f575598dec3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.СтатьиРасходов" category="Manager">
+				<xr:TypeId>52404dcf-69d9-41ba-a522-4af21e368edd</xr:TypeId>
+				<xr:ValueId>33699777-88e9-4bdb-aba1-d7224ef02df6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатьиРасходов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+				<v8:Type>cfg:CatalogRef.ОбъектыСтроительства</v8:Type>
+				<v8:Type>cfg:DocumentRef.ЗаказНаСборку</v8:Type>
+				<v8:Type>cfg:CatalogRef.СделкиСКлиентами</v8:Type>
+				<v8:Type>cfg:DocumentRef.ЗаказНаПроизводство</v8:Type>
+				<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
+				<v8:Type>cfg:DocumentRef.ЗаявкаНаВозвратТоваровОтКлиента</v8:Type>
+				<v8:Type>cfg:CatalogRef.ПретензииКлиентов</v8:Type>
+				<v8:Type>cfg:CatalogRef.Кассы</v8:Type>
+				<v8:Type>cfg:DocumentRef.АктВыполненныхРабот</v8:Type>
+				<v8:Type>cfg:DocumentRef.ВводОстатков</v8:Type>
+				<v8:Type>cfg:CatalogRef.НаправленияДеятельности</v8:Type>
+				<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+				<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+				<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+				<v8:Type>cfg:DocumentRef.ЗаказПоставщику</v8:Type>
+				<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
+				<v8:Type>cfg:CatalogRef.ОбъектыЭксплуатации</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПоступлениеТоваров</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПриобретениеУслугПрочихАктивов</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПередачаТоваровМеждуОрганизациями</v8:Type>
+				<v8:Type>cfg:CatalogRef.ПрочиеРасходы</v8:Type>
+				<v8:Type>cfg:EnumRef.ВидыОперацийПоЗарплате</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПриобретениеТоваровУслуг</v8:Type>
+				<v8:Type>cfg:CatalogRef.ПрочиеАктивыПассивы</v8:Type>
+				<v8:Type>cfg:CatalogRef.НематериальныеАктивы</v8:Type>
+				<v8:Type>cfg:EnumRef.ВидыОбязательногоСтрахованияСотрудников</v8:Type>
+				<v8:Type>cfg:DocumentRef.СборкаТоваров</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПеремещениеТоваров</v8:Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+				<v8:Type>cfg:DocumentRef.ЗаказНаПеремещение</v8:Type>
+				<v8:Type>cfg:CatalogRef.ДоговорыКредитовИДепозитов</v8:Type>
+				<v8:Type>cfg:DocumentRef.ЗаказНаПроизводство2_2</v8:Type>
+				<v8:Type>cfg:DocumentRef.ЗаказДавальца</v8:Type>
+				<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
+				<v8:Type>cfg:DocumentRef.РеализацияУслугПрочихАктивов</v8:Type>
+				<v8:Type>cfg:CatalogRef.МаркетинговыеМероприятия</v8:Type>
+				<v8:Type>cfg:EnumRef.АналитикаКурсовыхРазниц</v8:Type>
+				<v8:Type>cfg:CatalogRef.СтатьиКалькуляции</v8:Type>
+			</Type>
+			<Hierarchical>true</Hierarchical>
+			<CodeLength>9</CodeLength>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
+			<DescriptionLength>100</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1cda33ba-f9a1-4ed6-bd09-8fc639b3c0d1">
+				<Properties>
+					<Name>ВидРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыРасходовНУ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c88f1269-a2f9-4619-b09f-0862502719e8">
+				<Properties>
+					<Name>СпособРаспределенияНаПроизводственныеЗатраты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыРаспределенияСтатейРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8fbf37fc-e20b-49e4-bab1-c2226d53ba1e">
+				<Properties>
+					<Name>ПравилоРаспределенияПоЭтапамПроизводства</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПравилаРаспределенияРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d4797365-1376-4bfd-b64d-8ab1c43d202b">
+				<Properties>
+					<Name>ВидДеятельностиДляНалоговогоУчетаЗатрат</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыДеятельностиДляНалоговогоУчетаЗатрат</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d617fd5e-b28e-4a25-8d2c-0b312992a3f0">
+				<Properties>
+					<Name>ВариантРаспределенияРасходовРегл</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВариантыРаспределенияРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dc098a6f-be48-4df9-960b-f3a34f74227f">
+				<Properties>
+					<Name>ОграничитьИспользование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b3c0feed-24d5-4d3b-9eb0-3437df2717e2">
+				<Properties>
+					<Name>ВидПрочихРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыПрочихДоходовИРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5f08446d-c529-41bd-b8f7-dab9114dbe75">
+				<Properties>
+					<Name>КонтролироватьЗаполнениеАналитики</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="889dd99c-e2ed-4728-a575-d7b78d6d7f6f">
+				<Properties>
+					<Name>ПравилоРаспределенияНаСебестоимость</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПравилаРаспределенияНаСебестоимостьТоваров</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="55b511af-2bb2-4921-bf88-119dd4101843">
+				<Properties>
+					<Name>ВидАктива</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыАктивовДляРБП</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="daa1c86b-9352-4ab1-a998-f423d02d07d7">
+				<Properties>
+					<Name>ПравилоРаспределенияПоПодразделениям</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПравилаРаспределенияРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e4e532ca-dcef-406e-a278-21f29b1052a1">
+				<Properties>
+					<Name>ТипРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a29c3ad2-bb5d-4975-a6e8-ee795098f890">
+				<Properties>
+					<Name>СпособРаспределенияПоНаправлениямДеятельности</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СпособыРаспределенияПоНаправлениямДеятельности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c8961e55-4351-48f6-8e6d-ec82dcad1174">
+				<Properties>
+					<Name>КорреспондирующийСчет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>7</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e06bcaaa-c9f4-42f3-a85f-90e3409345ed">
+				<Properties>
+					<Name>СчетУчета</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="24553431-e28d-4eef-8bf0-9d016c8b317f">
+				<Properties>
+					<Name>СтатьяРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="24af736f-3175-476e-8f0a-803419d6ac67">
+				<Properties>
+					<Name>ПринятиеКналоговомуУчету</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="17132090-dbf6-4f90-b552-20399f7f2d12">
+				<Properties>
+					<Name>СтатьяКалькуляции</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатьиКалькуляции</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="66b6d75c-abb0-48a8-9aea-1e2e07a72139">
+				<Properties>
+					<Name>ВариантРаздельногоУчетаНДС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВариантыРаздельногоУчетаНДС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cbcfaf07-3016-4f38-8ab0-6ad17efc18a1">
+				<Properties>
+					<Name>ПризнаватьРасходамиПриУСН</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c2f2400d-7049-454c-b13f-56b369b0011b">
+				<Properties>
+					<Name>ВидРБП</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыРБП</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d8c23c33-9ad1-4663-b8ae-81b3e7a19438">
+				<Properties>
+					<Name>СчетСписанияОСНО</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c97c6230-7212-4421-a01a-7a1d433bdd5c">
+				<Properties>
+					<Name>ВидДеятельностиРасходов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыДеятельностиРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2601c79c-9d2d-4350-a6eb-347d8f6c7e6b">
+				<Properties>
+					<Name>СчетСписанияЕНВД</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ae503353-8b69-4d49-bf85-4770e51a4b58">
+				<Properties>
+					<Name>ГруппаФинансовогоУчета</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГруппыФинансовогоУчетаДоходовРасходов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8e1be8b7-7dae-425e-bdd1-eaa7a75a029a">
+				<Properties>
+					<Name>ХарактерПроизводственныхЗатрат</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ХарактерПроизводственныхЗатрат</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fccc4ad0-bcfb-4fb4-b80f-f98d71fa155c">
+				<Properties>
+					<Name>Описание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1024</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="553bbf61-c2f2-4265-929b-44a1a7672e95">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыОтраженияВУчетеВнеоборотныхАктивов" category="Ref">
+				<xr:TypeId>13c3446f-1a0c-423d-89b0-9efe4a6cc0ba</xr:TypeId>
+				<xr:ValueId>ef35d78e-b9df-4012-9c58-5579b22ec51e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыОтраженияВУчетеВнеоборотныхАктивов" category="Manager">
+				<xr:TypeId>967d02f2-6912-491b-92ca-c2a8ae68d904</xr:TypeId>
+				<xr:ValueId>6199041e-8bea-4c58-aca1-40f74c7d1ba3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыОтраженияВУчетеВнеоборотныхАктивов" category="List">
+				<xr:TypeId>196cb011-848a-48b1-8302-7f56040ba84a</xr:TypeId>
+				<xr:ValueId>d666faf0-80fc-48e5-b703-1d6fb023a21a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыОтраженияВУчетеВнеоборотныхАктивов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>
